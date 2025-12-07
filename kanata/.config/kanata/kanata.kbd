@@ -1,0 +1,28 @@
+(defcfg
+  process-unmapped-keys yes
+  danger-enable-cmd no
+)
+
+(defsrc
+  f h j k l m n spc lalt caps ; ' , .
+)
+
+(defalias
+  ;; Tap f for 'f', hold for Super (Windows key)
+  ;; Using tap-hold with eager-decision for immediate modifier activation
+  fsp (tap-hold 150 150 f lmet)
+
+  ;; Tap space for space, hold for navigation layer
+  spl (tap-hold 200 200 spc (layer-toggle nav))
+
+  ;; Tap alt for escape, hold for alt
+  ate (tap-hold 250 250 esc lalt)
+)
+
+(deflayer base
+  @fsp _ _ _ _ _ _ @spl @ate lsft _ _ _ _
+)
+
+(deflayer nav
+  _ left down up right = - _ _ lsft [ ] \ 102d
+)
