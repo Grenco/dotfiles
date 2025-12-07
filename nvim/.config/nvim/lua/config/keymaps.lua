@@ -2,7 +2,6 @@
 -- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
 -- Add any additional keymaps here
 vim.keymap.set("i", "<C-j>", "<Esc>", { noremap = true, desc = "Exit insert mode" })
-vim.keymap.set("v", "<C-j>", "<Esc>", { noremap = true, desc = "Exit visual mode" })
 vim.keymap.set("n", "<S-w>", "$", { noremap = true, desc = "Go to end of line" })
 vim.keymap.set("n", "<S-b>", "^", { noremap = true, desc = "Go to beginning of line" })
 vim.keymap.set("n", '"', '(iw"', { noremap = true, desc = "Surround word with quotes" })
