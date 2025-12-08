@@ -26,7 +26,7 @@ $time\
 [ ](fg:purple)\
 $line_break$character"""
 
-palette = 'catppuccin_mocha'
+palette = 'omarchy'
 
 [palettes.gruvbox_dark]
 color_fg0 = '#fbf1c7'
@@ -67,6 +67,39 @@ surface0 = "#313244"
 base = "#1e1e2e"
 mantle = "#181825"
 crust = "#11111b"
+
+# BEGIN OMARCHY PALETTE
+[palettes.omarchy]
+# Auto-generated from hackerman theme
+base = "#0b0c16"
+mantle = "#0b0c16"
+crust = "#0b0c16"
+surface0 = "#0b0c16"
+surface1 = "#0b0c16"
+surface2 = "#0b0c16"
+text = "#ddf7ff"
+subtext1 = "#85e1fb"
+subtext0 = "#85e1fb"
+overlay0 = "#85e1fb"
+overlay1 = "#85e1fb"
+overlay2 = "#85e1fb"
+red = "#50f872"
+maroon = "#85ff9d"
+green = "#4fe88f"
+yellow = "#50f7d4"
+peach = "#50f7d4"
+blue = "#829dd4"
+sapphire = "#c4d2ed"
+sky = "#7cf8f7"
+teal = "#7cf8f7"
+cyan = "#d1fffe"
+lavender = "#86a7df"
+purple = "#86a7df"
+pink = "#cddbf4"
+flamingo = "#cddbf4"
+rosewater = "#ddf7ff"
+orange = "#50f7d4"
+# END OMARCHY PALETTE
 
 [os]
 disabled = false
@@ -188,3 +221,34 @@ vimcmd_symbol = '[](bold fg:creen)'
 vimcmd_replace_one_symbol = '[](bold fg:purple)'
 vimcmd_replace_symbol = '[](bold fg:purple)'
 vimcmd_visual_symbol = '[](bold fg:lavender)'
+
+# hackerman theme palette (auto-generated)
+[palettes.hackerman]
+base = "#0b0c16"
+mantle = "#0b0c16"
+crust = "#0b0c16"
+surface0 = "#0b0c16"
+surface1 = "#0b0c16"
+surface2 = "#0b0c16"
+text = "#ddf7ff"
+subtext1 = "#85e1fb"
+subtext0 = "#85e1fb"
+overlay0 = "#85e1fb"
+overlay1 = "#85e1fb"
+overlay2 = "#85e1fb"
+red = "#50f872"
+maroon = "#85ff9d"
+green = "#4fe88f"
+yellow = "#50f7d4"
+peach = "#50f7d4"
+blue = "#829dd4"
+sapphire = "#c4d2ed"
+sky = "#7cf8f7"
+teal = "#7cf8f7"
+cyan = "#d1fffe"
+lavender = "#86a7df"
+purple = "#86a7df"
+pink = "#cddbf4"
+flamingo = "#cddbf4"
+rosewater = "#ddf7ff"
+orange = "#50f7d4"
