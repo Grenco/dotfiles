@@ -4,7 +4,6 @@
 vim.keymap.set("i", "<C-j>", "<Esc>", { noremap = true, desc = "Exit insert mode" })
 vim.keymap.set("n", "<S-w>", "$", { noremap = true, desc = "Go to end of line" })
 vim.keymap.set("n", "<S-b>", "^", { noremap = true, desc = "Go to beginning of line" })
-vim.keymap.set("n", '"', '(iw"', { noremap = true, desc = "Surround word with quotes" })
 vim.keymap.set("n", "gh", ":ClangdSwitchSourceHeader<CR>", {
   desc = "Switch between header and source",
   silent = true,
