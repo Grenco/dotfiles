@@ -21,6 +21,7 @@ return {
         "typescript",
         "vim",
         "yaml",
+        "zig",
       })
     end,
   },
