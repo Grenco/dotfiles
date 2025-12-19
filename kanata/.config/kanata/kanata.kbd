@@ -4,7 +4,7 @@
 )
 
 (defsrc
-  f h j k l m n spc lalt caps ; ' , .
+  f h i j k l m n o p spc lalt caps ; ' , .
 )
 
 (defalias
@@ -20,9 +20,9 @@
 )
 
 (deflayer base
-  @fsp _ _ _ _ _ _ @spl @ate lsft _ _ _ _
+  @fsp _ _ _ _ _ _ _ _ _ @spl @ate lsft _ _ _ _
 )
 
 (deflayer nav
-  _ left down up right = - _ _ lsft [ ] \ 102d
+  _ left home down up right = - end prnt _ _ lsft [ ] \ 102d
 )
