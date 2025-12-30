@@ -3,15 +3,7 @@
   "theme": "system",
   "permission": {
     "edit": "ask",
-    "bash": {
-      "* rm *": "ask",
-      "cd *": "allow",
-      "find *": "allow",
-      "fd *": "allow",
-      "grep *": "allow",
-      "rg *": "allow",
-      "*": "ask"
-    },
+    "bash": "ask",
     "webfetch": "ask",
     "doom_loop": "ask",
     "external_directory": "ask"
