@@ -1,6 +1,27 @@
 {
   "$schema": "https://opencode.ai/config.json",
   "theme": "system",
+  "plugin": ["opencode-gemini-auth@latest"],
+  "agent": {
+    "narration": {
+      "description": "Generates short explanations for pending changes (no tools)",
+      "mode": "all",
+      "temperature": 0,
+      "textVerbosity": "high",
+      "tools": {
+        "bash": false,
+        "read": false,
+        "glob": false,
+        "grep": false,
+        "task": false,
+        "webfetch": false,
+        "todowrite": false,
+        "apply_patch": false,
+        "skill": false
+      },
+      "prompt": "You write concise, user-facing explanations for proposed changes (edits or shell commands). Never call tools. Focus on what will change and why."
+    }
+  },
   "permission": {
     "edit": "ask",
     "bash": "ask",
